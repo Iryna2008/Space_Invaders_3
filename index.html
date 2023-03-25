@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .ok {background-color: rgb(153, 24, 168);}
+    .uk {background-color: rgb(8, 135, 17);}
+    .ek {background-color: rgb(30, 15, 193);}
+    @keyframes go{
+      0%{
+        left: 0px;
+      }
+      25%{
+        left: 250px;
+      }
+      50%{
+        left: 500px;
+      }
+      75%{
+        left: 750px;
+      }
+      100%{
+        left: 1000px;
+      }
+    }
+    .go-go{
+      position: relative;
+      animation-name: go; 
+      animation-duration: 5s;
+      animation-timing-function: steps(2);
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    @keyframes go1{
+      0%{
+        left: 0px;
+      }
+      25%{
+        left: 250px;
+        width: 20px;
+        margin: 0px 0px 0px 80px;
+      }
+      50%{
+        left: 500px;
+        width: 40px;
+        margin: 0px 0px 0px 120px;
+      }
+      75%{
+        left: 750px;
+        width: 20px;
+        margin: 0px 0px 0px 80px;
+      }
+      100%{
+        left: 1000px;
+      }
+    }
+    .go-go1{
+      position: relative;
+      animation-name: go1; 
+      animation-duration: 5s;
+      animation-timing-function: steps(2);
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    @keyframes go2{
+      0%{
+        left: 0px;
+      }
+      25%{
+        left: 250px;
+        width: 20px;
+        margin: 0px 0px 0px 140px;
+      }
+      50%{
+        left: 500px;
+        width: 40px;
+        margin: 0px 0px 0px 20px;
+      }
+      75%{
+        left: 750px;
+        width: 20px;
+        margin: 0px 0px 0px 140px;
+      }
+      100%{
+        left: 1000px;
+      }
+    }
+    .go-go2{
+      position: relative;
+      animation-name: go2; 
+      animation-duration: 5s;
+      animation-timing-function: steps(2);
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    @keyframes go3{
+      0%{
+        left: 0px;
+      }
+      25%{
+        left: 250px;
+        margin: 0px 0px 0px 60px;
+      }
+      50%{
+        left: 500px;
+        margin: 60px 0px 0px 60px;
+      }
+      75%{
+        left: 750px;
+        margin: 0px 0px 0px 60px;
+      }
+      100%{
+        left: 1000px;
+      }
+    }
+    .go-go3{
+      position: relative;
+      animation-name: go3; 
+      animation-duration: 5s;
+      animation-timing-function: steps(2);
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    @keyframes go4{
+      0%{
+        left: 0px;
+      }
+      25%{
+        left: 250px;
+        margin: 0px 0px 0px 20px;
+      }
+      50%{
+        left: 500px;
+        margin: 60px 0px 0px 20px;
+      }
+      75%{
+        left: 750px;
+        margin: 0px 0px 0px 20px;
+      }
+      100%{
+        left: 1000px;
+      }
+    }
+    .go-go4{
+      position: relative;
+      animation-name: go4; 
+      animation-duration: 5s;
+      animation-timing-function: steps(2);
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    @keyframes went1{
+      0%{
+        left: 0px;
+      }
+      25%{
+        left: 250px;
+        
+      }
+      50%{
+        left: 500px;
+      }
+      75%{
+        left: 750px;
+        
+      }
+      100%{
+        left: 1000px;
+        
+      }
+    }
+    .went1{
+      position: relative;
+      animation-name: went1; 
+      animation-duration: 5s;
+      animation-timing-function: steps(1);
+      animation-delay: 1500ms;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    @keyframes went2{
+      0%{
+        left: 0px;
+        background-color: #fff;
+      }
+      25%{
+        left: 250px;
+        background-color: rgb(8, 135, 17);
+      }
+      50%{
+        left: 500px;
+        background-color: #fff;
+      }
+      75%{
+        left: 750px;
+        background-color: rgb(8, 135, 17);
+      }
+      100%{
+        left: 1000px;
+        background-color: #fff;
+      }
+    }
+    .went2{
+      position: relative;
+      animation-name: went2; 
+      animation-duration: 5s;
+      animation-timing-function: steps(1);
+      animation-delay: 1500ms;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+  </style>
+</head>
+<body>
+  <div class="">  
+    <div class="" style="display: flex;">  
+      <div class="ok go-go" style="height: 20px; width: 20px; margin: 50px 0px 0px 100px;"></div>
+      <div class="ok go-go" style="height: 20px; width: 20px; margin: 50px 0px 0px 100px;"></div> 
+      <div class="ok go-go" style="height: 20px; width: 20px; margin: 70px 0px 0px -120px;"></div> 
+      <div class="ok go-go" style="height: 20px; width: 20px; margin: 70px 0px 0px 60px;"></div>
+    </div>  
+    
+    <div style="display: flex;"> 
+      <div class="ok go-go3" style="height: 40px; width: 20px; order: 1; margin: 60px 0px 0px 60px;" ></div>
+      <div class="ok go-go" style="height: 20px; width: 140px; order: 2; margin: 0px 0px 0px 20px;"></div> 
+      <div class="ok go-go" style="height: 20px; width: 40px; order: 3; margin: 20px 0px 0px -160px;"></div>
+      <div class="ok go-go" style="height: 20px; width: 60px; order: 4; margin: 20px 0px 0px 20px;"></div>
+      <div class="ok go-go" style="height: 20px; width: 40px; order: 5; margin: 20px 0px 0px 20px;"></div>
+      
+      <div class="ok go-go" style="height: 20px; width: 220px; order: 6; margin: 40px 0px 0px -200px;"></div>
+        
+      <div class="ok go-go" style="height: 20px; width: 140px; order: 7; margin: 60px 0px 0px -180px;"></div> 
+      <div class="ok go-go4" style="height: 40px; width: 20px; order: 8; margin: 60px 0px 0px 20px;"></div>
+      
+      <div class="ok go-go" style="height: 20px; width: 20px; order: 11; margin: 80px 0px 0px -180px;"></div> 
+      <div class="ok go-go" style="height: 20px; width: 20px; order: 12; margin: 80px 0px 0px 100px;"></div> 
+    </div>
+    <div style="display: flex;">  
+      <div class="ok go-go1" style="height: 20px; width: 40px; margin: 0px 0px 0px 120px;"></div> 
+      <div class="ok go-go2" style="height: 20px; width: 40px; margin: 0px 0px 0px 20px;"></div>
+    </div> 
+  </div> 
+
+  <div class="uk went1" style="height: 20px; width: 60px; margin: 40px 0px 0px 110px; "></div>
+  <div class="uk went1" style="height: 20px; width: 100px; margin: 0px 0px 0px 90px;"></div>
+  <div class="uk went1" style="height: 20px; width: 140px; margin: 0px 0px 0px 70px;"></div>
+  <div style="display: flex;">  
+    <div class="uk went1" style="height: 20px; width: 40px; margin: 0px 0px 0px 50px;"></div>
+    <div class="uk went1" style="height: 20px; width: 60px; margin: 0px 0px 0px 20px;"></div>
+    <div class="uk went1" style="height: 20px; width: 40px; margin: 0px 0px 0px 20px;"></div>
+  </div>
+  <div class="uk went1" style="height: 20px; width: 180px; margin: 0px 0px 0px 50px;"></div>
+  <div style="display: flex;">
+    <div class="uk went1" style="height: 20px; width: 20px; margin: 0px 0px 0px 70px;">1</div>
+    <div class="uk went1" style="height: 20px; width: 60px; margin: 0px 0px 0px 20px;">2</div>
+    <div class="uk went1" style="height: 20px; width: 20px; margin: 0px 0px 0px 20px;">3</div>
+    <div class="uk went1" style="height: 20px; width: 20px; margin: 20px 0px 0px -160px;">4</div>
+    <div class="uk went1" style="height: 20px; width: 20px; margin: 20px 0px 0px 140px;">5</div>
+    <div class="uk went2" style="height: 20px; width: 20px; margin: 40px 0px 0px -200px;">6</div>
+    <div class="uk went1" style="height: 20px; width: 20px; margin: 40px 0px 0px 20px;">7</div> 
+    <div class="uk went1" style="height: 20px; width: 20px; margin: 40px 0px 0px 100px;">8</div>
+    <div class="ok went2" style="height: 20px; width: 20px; margin: 40px 0px 0px 20px;">9</div>
+  </div>
+  <div class="ok" style="height: 20px; width: 60px; position: absolute; top: 430px; left: 110px;"></div>
+  <div class="ok" style="height: 20px; width: 60px; position: absolute; top: 430px; left: 110px;"></div>
+  <div class="ok" style="height: 20px; width: 60px; position: absolute; top: 430px; left: 110px;"></div>
+  <div class="ok" style="height: 20px; width: 180px; position: absolute; top: 450px; left: 50px;"></div>
+  <div class="ok" style="height: 20px; width: 220px; position: absolute; top: 470px; left: 30px;"></div>
+  <div class="ok" style="height: 20px; width: 50px; position: absolute; top: 490px; left: 30px;"></div>
+  <div class="ok" style="height: 20px; width: 40px; position: absolute; top: 490px; left: 120px;"></div>
+  <div class="ok" style="height: 20px; width: 50px; position: absolute; top: 490px; left: 200px;"></div>
+  <div class="ok" style="height: 20px; width: 220px; position: absolute; top: 510px; left: 30px;"></div>
+  <div class="ok" style="height: 20px; width: 60px; position: absolute; top: 530px; left: 60px;"></div>
+  <div class="ok" style="height: 20px; width: 60px; position: absolute; top: 530px; left: 160px;"></div>
+  <div class="ok" style="height: 20px; width: 40px; position: absolute; top: 550px; left: 40px;"></div>
+  <div class="ok" style="height: 20px; width: 40px; position: absolute; top: 550px; left: 200px;"></div>
+  <div class="ok" style="height: 20px; width: 40px; position: absolute; top: 550px; left: 120px;"></div>
+  <div class="ok" style="height: 20px; width: 40px; position: absolute; top: 570px; left: 60px;"></div>
+  <div class="ok" style="height: 20px; width: 40px; position: absolute; top: 570px; left: 180px;"></div>
+  
+  <div class="uk" style="height: 30px; width: 10px; position: absolute; top: 630px; left: 135px;"></div>
+  <div class="uk" style="height: 20px; width: 50px; position: absolute; top: 660px; left: 115px;"></div>
+  <div class="uk" style="height: 10px; width: 200px; position: absolute; top: 680px; left: 40px;"></div>
+  <div class="uk" style="height: 60px; width: 220px; position: absolute; top: 690px; left: 30px;"></div>
+  
+</body>
+</html>
